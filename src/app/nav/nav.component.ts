@@ -12,4 +12,10 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  direct_to_official() {
+    /*
+      Direct user to the official website when the logo is clicked
+    */
+    
+  }
 }

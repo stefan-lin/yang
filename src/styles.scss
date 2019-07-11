@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, app-root {
+    height: 100%;
+    margin: 0;
+    }
+
+body {
+    font-family: 'Enriqueta', serif;
+}
+
+.landing-bg{
+    width: 100%;
+    height: 100%;
+    background: url('assets/img/yang_bg.jpg') no-repeat center;
+    //background-size: 100% 100%;
+    background-size: auto;
+    background-position: top center;
+}
+
+/*
+.landing-page{
+    background-image: 'assets/img/yang_bg.jpg';
+}
+*/
