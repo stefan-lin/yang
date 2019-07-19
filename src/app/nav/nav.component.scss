@@ -23,10 +23,27 @@
 
 .toggler-style{
     color: white;
+    border: 3px solid white;
     font-family: 'Fredoka One', cursive;
     font-size: 1.6em;
 }
 
 .caret-show{
     white-space: normal;
+}
+
+.dropdown-style{
+    background-color: transparent;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1em;
+    border: 0px;
+}
+
+.dropdown-item-style{
+    color: white;
+}
+
+.dropdown-item-style:hover{
+    background-color: transparent;
+    color: #e04848;
 }
