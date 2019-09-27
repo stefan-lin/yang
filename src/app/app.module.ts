@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { SocialComponent } from './social/social.component';
 
+// For Font Awesome Icons
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,8 @@ import { SocialComponent } from './social/social.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

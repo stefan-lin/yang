@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  INTERVIEW_HOSTS = [
+    'Lawrence Lessig',
+    'Joe Rogan',
+    'Ben Shapiro',
+    'H3H3',
+    'Kara Swisher'
+  ];
+
   constructor() { }
 
   ngOnInit() {

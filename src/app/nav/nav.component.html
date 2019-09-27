@@ -10,7 +10,7 @@
       </a>
     </div>
     <div class="dropdown">
-      <button class="btn btn-lg dropdown-toggle toggler-style mr-5" 
+      <button class="btn btn-lg dropdown-toggle toggler-style mr-5 interview-styling" 
               type="button" 
               id="dropdownMenuButton" 
               data-toggle="dropdown" 
@@ -20,17 +20,10 @@
       </button>
       <div class="dropdown-menu dropdown-style" 
            aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item dropdown-item-style" 
-           href="#">
-          with Joe Rogan
-        </a>
-        <a class="dropdown-item dropdown-item-style" 
-           href="#">
-          with 
-        </a>
-        <a class="dropdown-item dropdown-item-style" 
-           href="#">
-          with Ben Shapiro
+        <a class="dropdown-item dropdown-item-style"
+           href="#"
+           *ngFor="let host of INTERVIEW_HOSTS">
+          with {{host}}
         </a>
       </div>
     </div>
